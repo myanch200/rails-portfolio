@@ -15,6 +15,11 @@ module DigitalCard
     #
     # These settings can be overridden in specific environments using the files
     # in config/environments, which are processed later.
+
+    config.generators do |g|
+      #   use haml
+      g.template_engine :haml
+    end
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
