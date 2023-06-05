@@ -13,3 +13,61 @@
  *= require_tree .
  *= require_self
  */
+
+
+
+@font-face {
+    font-family: Mabry pro;
+    src: url('mabry-regular-pro.woff2') format("woff2"),
+    url('mabry-regular-pro.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mabry pro;
+    src: url('mabry-italic-pro.woff2') format("woff2"),
+    url('mabry-italic-pro.woff') format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mabry pro;
+    src: url('mabry-medium-pro.woff2') format("woff2"),
+    url('mabry-medium-pro.woff') format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mabry pro;
+    src: url('mabry-medium-italic-pro.woff2') format("woff2"),
+    url('mabry-medium-italic-pro.woff') format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: Mabry pro;
+    src: url('mabry-bold-pro.woff2') format("woff2"),
+    url('mabry-bold-pro.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Mabry pro, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+}
+
+/*
+    Home hero
+*/
+.hero-height {
+    min-height: calc(100vh - 72px); /* 72px is the height of the navbar */
+}
