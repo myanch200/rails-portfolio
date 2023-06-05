@@ -1,2 +1,25 @@
-%h1 Pages#home
-%p Find me in app/views/pages/home.html.haml
+%section{class: 'grid grid-cols-1 hero-height lg:grid-cols-2'}
+  %div{class: 'bg-emerald-500 p-4 lg:border-r-2 lg:border-black'}
+    .flex.flex-col.justify-center.items-center.w-ful.h-full
+      .text-left.px-20
+        %h1.text-4xl.font-bold.mb-10 Hi, I'm Martin Yanchev
+        %p{class: 'text-2xl mb-5'}  I'm a full-stack developer, based in Glasgow, Scotland.
+        %p{class: 'text-2xl mb-10'}  I'm passionate about building web applications, interested in all kinds of technologies such as Ruby, Python, Java and Javascript.
+
+        = link_to 'Check out my CV', '#', class: 'block bg-black p-5 text-white font-bold text-xl text-center mb-5 hover:bg-gray-800'
+        = link_to 'More about me', '#', class: 'block bg-emerald-500 p-5 font-bold text-xl text-center border-4 border-black hover:bg-gray-800 hover:text-emerald-500'
+
+  %div{class: 'bg-orange-500 p-4 lg:border-l-2 lg:border-black'}
+    .flex.flex-col.justify-center.items-center.w-ful.h-full
+      = image_tag 'me.jpg'
+
+%section.bg-sky-600.w-full.min-h-screen
+  %h2.text-4xl.text-center.pt-20 My Projects
+  %div{class: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 p-10'}
+    - 10.times do
+      .flex.flex-col.gap-5.bg-white.p-5.border-4.border-black
+        %h3.text-2xl.font-bold.mb-5 Project Title
+        = image_tag 'me.jpg'
+        %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur metus sed augue fermentum efficitur. Donec vel nulla metus. Phasellus varius, metus et posuere commodo, justo ipsum condimentum turpis, vel tempus orci augue id dolor. Donec facilisis quam arcu, sed molestie dui fermentum id.
+        = link_to 'See more', '#', class: 'block bg-black p-5 text-white font-bold text-xl text-center hover:bg-gray-800'
+
