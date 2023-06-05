@@ -3,9 +3,13 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import "trix"
 import "@rails/actiontext"
+import "swiper";
+
 
 import * as ActiveStorage from "@rails/activestorage"
 ActiveStorage.start()
 
 import "./app/direct_uploads"
 
+
+import "./app/project_card_swiper"
