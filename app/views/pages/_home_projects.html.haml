@@ -1,0 +1,6 @@
+%section.w-full.min-h-screen
+  .bg-sky-600.py-20.border-y-4.border-black
+    %h2.text-4xl.text-center.font-bold My Projects
+  %div{class: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-10'}
+    = render partial: 'project', collection: 1..6
+

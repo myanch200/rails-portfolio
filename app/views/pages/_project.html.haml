@@ -1,0 +1,9 @@
+.flex.flex-col.gap-5.bg-white.border-4.border-black
+
+  = image_tag 'me.png', class: 'w-full max-h-64 object-cover'
+  .p-5
+    %h3.text-2xl.font-bold.mb-5 Project Title
+    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consectetur metus sed augue fermentum efficitur. Donec vel nulla metus. Phasellus varius, metus et posuere commodo, justo ipsum condimentum turpis, vel tempus orci augue id dolor. Donec facilisis quam arcu, sed molestie dui fermentum id.
+  .flex.flex-col{class: 'w-full justify-between items-center border-t-4 border-black lg:pl-5 lg:flex-row'}
+    = link_to 'See more ->', '#', class: 'block p-5 font-bold text-xl text-center border-b-4 border-black w-full lg:w-auto lg:border-r-4 lg:border-b-0'
+    = link_to 'Github', '#', class: 'block flex-1 p-5 font-bold text-xl text-center'
