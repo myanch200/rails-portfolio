@@ -30,6 +30,10 @@ gem "stimulus-rails"
 # Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
 gem "tailwindcss-rails"
 
+# adding view components
+gem "view_component", "~> 3.1"
+
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
@@ -78,3 +82,4 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
