@@ -15,14 +15,21 @@ module.exports = {
       colors: {
         'cyan': {
           'custom': '#266383'
+        },
+        'orange': {
+          'custom': '#ff5722',
+          'lighter': '#ff9800'
+        },
+        'blue': {
+          'custom': '#80cbc4'
         }
-      }
+      },
     },
-  },
-  plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/aspect-ratio'),
-    require('@tailwindcss/typography'),
-    require('@tailwindcss/container-queries'),
-  ]
+    plugins: [
+      require('@tailwindcss/forms'),
+      require('@tailwindcss/aspect-ratio'),
+      require('@tailwindcss/typography'),
+      require('@tailwindcss/container-queries'),
+    ]
+  }
 }
