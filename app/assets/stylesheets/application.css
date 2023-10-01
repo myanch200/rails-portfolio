@@ -14,6 +14,7 @@
  *= require_self
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap');
 
 
 @font-face {
@@ -58,7 +59,7 @@
 }
 
 body {
-    font-family: Mabry pro, sans-serif;
+    font-family: 'Signika', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #333;

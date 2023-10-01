@@ -1,0 +1,11 @@
+%nav
+  %ul{class: 'navbar'}
+    %li
+      = link_to root_path do
+        = inline_svg 'logo.svg', class: 'logo'
+    %li
+      = link_to 'About', '#'
+    %li
+      = link_to 'Contact', '#contact'
+    %li 
+      = link_to 'Download CV', '#', class: 'py-2 px-4 border-2 border-purple-custom rounded-md text-purple-custom hover:bg-purple-custom hover:text-white transition duration-300 ease-in-out'

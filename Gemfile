@@ -32,6 +32,8 @@ gem "tailwindcss-rails"
 
 # adding view components
 gem "view_component", "~> 3.1"
+gem 'inline_svg'
+
 
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]

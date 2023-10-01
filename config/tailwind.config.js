@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        signika: ['Signika', 'sans-serif'],
       },
       colors: {
         'cyan': {
@@ -22,8 +23,11 @@ module.exports = {
         },
         'blue': {
           'custom': '#80cbc4'
-        }
+        },
+        'purple': {
+          'custom': '#531486'
       },
+    },
     },
     plugins: [
       require('@tailwindcss/forms'),
